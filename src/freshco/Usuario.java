@@ -81,7 +81,7 @@ public class Usuario {
         return 0;
     }
 
-    public void cadastrarEndereço() {
+    public void cadastrarEndereco() {
         System.out.println("Digite o CEP");
         int cep = leitura.nextInt();
         System.out.println("Digite a Rua");
@@ -94,7 +94,7 @@ public class Usuario {
         String cidade = leitura.nextLine();
         System.out.println("Digite o Estado");
         String estado = leitura.nextLine();
-        CadastroEndereço endereço = new CadastroEndereço(cep, rua, numero, complemento, cidade, estado);
+        CadastroEndereço endereco = new CadastroEndereço(cep, rua, numero, complemento, cidade, estado);
     }
 
     public void cadastrarFormaPagamento() {
